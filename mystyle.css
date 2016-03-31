@@ -1,0 +1,33 @@
+.logo {
+	width: 200px;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	top: 100px;
+	right: 30px;
+	height: 80px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav a {
+	color: #65392D;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFB528;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+li {
+	display: inline-block;
+	float: right;
+	margin: 10px;
+
+}

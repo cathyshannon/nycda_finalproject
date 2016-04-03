@@ -30,9 +30,15 @@ div {
 	}
 
 #about-picture {
-	width: 500px;
+	width: 700px;
 	display: block;
 	margin: 0 auto;
+	border: 10px solid;
+	border-radius: 10px;
+  	border-top-color: #856036;
+  	border-left-color: #5d4426;
+  	border-bottom-color: #856036;
+  	border-right-color: #5d4426;
 }
 
 table {
@@ -101,6 +107,7 @@ li {
   height: 500px;
   overflow: hidden;
   border: 10px solid;
+  border-radius: 10px;
   border-top-color: #856036;
   border-left-color: #5d4426;
   border-bottom-color: #856036;
@@ -576,10 +583,10 @@ img:nth-child(4) {
 	}
 	
 	#about-picture {
-	width: 100%;
+	width: 90%;
 	}
 
-	.container-photo, table {
+	table {
 		width: 100%;
 	}
 

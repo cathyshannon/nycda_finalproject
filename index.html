@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<title>MaxCafe Scheveningen - The Original Daily Fresh</title>
 	<script type="text/javascript" src="jquery-2.2.1.js"></script>
@@ -15,21 +16,29 @@
 </head>
 <body>	
 
-	<header>
-		
-		<nav>
-		<img src="img/maxcafeLOGO.png" class="logo" id="toTop">
-			<ul>
-				<li><a id = "contact-bttn">CONTACT</a></li>
-				<li><a id = "faq-bttn">FAQ</a></li>
-				<li><a id = "photos-bttn">PHOTOS</a></li>
-				<li><a id = "events-bttn">EVENTS</a></li>
-				<li><a id = "menu-bttn">FOOD MENU</a></li>
-				<li><a id = "about-bttn">ABOUT</a></li>
-				<li><a id = "home-bttn">HOME</a></li>
-			</ul>
-		</nav>	
-	</header>
+<!-- social media bar -->
+
+	<a href="https://www.facebook.com/Maxcafescheveningen" target="_blank">
+		<div class="social-slide" id="facebook"></div>
+	</a>
+	<a href="https://www.instagram.com/sammydefretes/" target="_blank">
+		<div class="social-slide" id="instagram"></div>
+	</a>	
+
+<!-- navigation bar -->
+
+	<nav id = "cssmenu">
+		<ul>
+			<li><a id = "contact-bttn">CONTACT</a></li>
+			<li><a id = "faq-bttn">FAQ</a></li>
+			<li><a id = "photos-bttn">PHOTOS</a></li>
+			<li><a id = "events-bttn">EVENTS</a></li>
+			<li><a id = "menu-bttn">FOOD MENU</a></li>
+			<li><a id = "about-bttn">ABOUT</a></li>
+			<li><a id = "home-bttn">HOME</a></li>
+		</ul>
+	</nav>	
+
 	<section id="home"></section>
 	<div id="banner">
 	<img src="img/maxcafeBG.jpg" id="maxcafe-home"/>
@@ -39,6 +48,7 @@
 		<h1>About MaxCafe Scheveningen</h1>
 		<p>MaxCafe was founded by Bert Muskitta and Sammy de Fretes in June 2015. Located in the vibrant harbour of Scheveningen, we cater to music and food lovers across all ages.</p>
 		<p>We have a healthy and affordable menu and a wide variety of quality drinks for you to enjoy. Every Sunday we have an Open Mic from 12pm-3pm and a booked artist/band from 3pm-5pm. Make sure to <a href="https://www.facebook.com/Maxcafescheveningen" target="_blank">like our Facebook page</a> and follow our <a id = "events-bttn">events</a>.</p>
+		<img id="about-picture" src="img/maxcafeABOUT.jpg">
 	</div>
 	<section id="menu"></section>
 	<div>
@@ -75,10 +85,10 @@
 	<h1>Photos</h1>
 	<div class="container-photo">
 
-	  <img class='photo'  src="img/8.jpg" style ="width: 700px;" alt="" />
-	  <img class='photo'  src="img/10.jpg" style ="width: 700px;" alt="" />
-	  <img class='photo'  src="img/11.jpg" style ="width: 700px;" alt="" />
-	  <img class='photo'  src="img/4.jpg" style ="width: 700px;" alt="" />
+	  <img class='photo'  src="img/8.jpg" style ="width: 700px; margin-top: -70px;" alt="" />
+	  <img class='photo'  src="img/10.jpg" style ="width: 700px; margin-top: -220px;" alt="" />
+	  <img class='photo'  src="img/11.jpg" style ="width: 700px; margin-top: -150px;" alt="" />
+	  <img class='photo'  src="img/4.jpg" style ="width: 700px; margin-top: -90px;" alt="" />
 
 	</div>
 
@@ -86,27 +96,31 @@
 	<section id="faq"></section>
 	<div>
 		<h1>FAQs</h1>  
-		<p><strong>Have any food allergies?</strong> <br>No problem for us! A quick word with the chef and we will come up with a creative alternative for you.</p>
-		<p><strong>Is there a kid's corner?</strong><br>
-		Yes, we have a selection of toys and crayons for your little ones to play with.</p>
-		<p><strong>Are my pets welcome?</strong><br>
-		Yes, we make sure your furry friends are welcome. We also have a water bowl available for when they're thirsty!
+		<h2>Have any food allergies?</h2>
+		<p>No problem for us! A quick word with the chef and we will come up with a creative alternative for you.</p>
+		<h2>Is there a kid's corner?</h2>
+		<p>Yes, we have a selection of toys and crayons for your little ones to play with.</p>
+		<h2>Are my pets welcome?</h2>
+		<p>Yes, we make sure your furry friends are welcome. We also have a water bowl available for when they're thirsty!
 		</p>
-		<p><strong>What about parking?</strong><br>
-		Yes, we have FREE parking available.</p>
-		<p><strong>Does the jukebox work?</strong><br>
-		Oh yes, it does! Just ask Sammy if you want to play a song on it.</p>
+		<h2>What about parking?</h2>
+		<p>Yes, we have FREE parking available.</p>
+		<h2>Does the jukebox work?</h2>
+		<p>Oh yes, it does! Just ask Sammy if you want to play a song on it.</p>
 	</div>
 
 	<section id="contact"></section>
 	<div>
 		<h1>Find And Contact Us</h1>
 		<p>Email: <a href="mailto:info@maxcafescheveningen.nl">info@maxcafescheveningen.nl</a></p>
+		<p>Address:<br> Doctor Lelykade 12, <br>2583 Den Haag</p>
 		<p>Opening Hours:<br>
 		Monday-Friday: 10:00-18:00<br>
 		Saturday-Sunday: 12:00-17:00</p>
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.9124631971094!2d4.2675259157918495!3d52.099524679736724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b096424f5bcf%3A0x713558ae6a293a99!2sDoctor+Lelykade+12%2C+2583+Den+Haag!5e0!3m2!1sen!2snl!4v1459430580825" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
+
+	<section id="footer"><p>	&copy; Digital Marketing Cat 2016</p></section>
 
 </body>
 <script type="text/javascript" src="myscript.js"></script>
